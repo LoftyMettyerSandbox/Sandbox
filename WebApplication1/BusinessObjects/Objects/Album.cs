@@ -1,9 +1,16 @@
-﻿namespace BusinessObjects
+﻿using Newtonsoft.Json;
+
+namespace BusinessObjects
 {
 	public class Album
 	{
-		public int userId { get; set; }
-		public int id { get; set; }
-		public string title { get; set; }
+		[JsonProperty("userId")]
+		public int UserId { get; set; }
+
+		[JsonProperty("id")]
+		public int Id { get; set; }
+
+		[JsonProperty("title")]
+		public string Title { get; set; }
 	}
 }

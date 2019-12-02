@@ -1,5 +1,6 @@
 using BusinessObjects;
 using BusinessObjects.Interfaces;
+using DAL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
@@ -16,7 +17,7 @@ namespace UnitTestProject1
 		{
 
 			//Repository = new MockRepository();
-			Repository = new Repository();
+			Repository = new APIRepository();
 
 		}
 

@@ -12,3 +12,7 @@ C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\We
 C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.RazorTargetAssemblyInfo.cache
 C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.dll
 C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.pdb
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\BusinessObjects.dll
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\DAL.dll
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\DAL.pdb
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\BusinessObjects.pdb
