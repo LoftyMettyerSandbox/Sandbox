@@ -1,0 +1,14 @@
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\WebApplication1.deps.json
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\WebApplication1.runtimeconfig.json
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\WebApplication1.runtimeconfig.dev.json
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\WebApplication1.dll
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.2\WebApplication1.pdb
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.csprojResolveAssemblyReference.cache
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.csproj.CoreCompileInputs.cache
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.RazorAssemblyInfo.cache
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.RazorAssemblyInfo.cs
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.AssemblyInfoInputs.cache
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.AssemblyInfo.cs
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.dll
+C:\gitsandbox\Sandbox\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.pdb
