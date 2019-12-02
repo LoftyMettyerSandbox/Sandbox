@@ -10,12 +10,11 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values (new git repo change test)
+        // GET api/values (new git repo change test 2)
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
-
         }
 
         // GET api/values/5
