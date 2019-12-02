@@ -5,6 +5,8 @@ namespace BusinessObjects.Interfaces
 {
     public interface IRepository
     {
-		IList<Album>GetAlbums(int id);
+		IList<Album>GetAlbums();
+		IList<Album> GetAlbumsForUser(int userId);
+
 	}
 }

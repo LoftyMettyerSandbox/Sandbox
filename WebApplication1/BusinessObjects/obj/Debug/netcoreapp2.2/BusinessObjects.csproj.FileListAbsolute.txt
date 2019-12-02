@@ -1,4 +1,3 @@
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csprojResolveAssemblyReference.cache
 C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csproj.CoreCompileInputs.cache
 C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfoInputs.cache
 C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfo.cs

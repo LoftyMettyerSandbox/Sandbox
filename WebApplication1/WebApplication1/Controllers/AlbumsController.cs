@@ -2,7 +2,6 @@
 using DAL;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 
 namespace WebApplication1.Controllers
 {
@@ -16,14 +15,14 @@ namespace WebApplication1.Controllers
 		[HttpGet]
 		public ActionResult<string> Get()
 		{
-			var data = Repository.GetAlbums(0);
+			var data = Repository.GetAlbums();
 			return JsonConvert.SerializeObject(data, Formatting.Indented);
 		}
 
-		[HttpGet("{id}")]
-		public ActionResult<string> Get(int id)
+		[HttpGet("{userid}")]
+		public ActionResult<string> GetForUser(int userId)
 		{
-			var data = Repository.GetAlbums(id);
+			var data = Repository.GetAlbumsForUser(userId);
 			return JsonConvert.SerializeObject(data, Formatting.Indented);
 		}
 

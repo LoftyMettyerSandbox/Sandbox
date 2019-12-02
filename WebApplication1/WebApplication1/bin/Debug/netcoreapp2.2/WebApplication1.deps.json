@@ -110,7 +110,8 @@
       },
       "DAL/1.0.0": {
         "dependencies": {
-          "BusinessObjects": "1.0.0"
+          "BusinessObjects": "1.0.0",
+          "System.Linq": "4.3.0"
         },
         "runtime": {
           "DAL.dll": {}
