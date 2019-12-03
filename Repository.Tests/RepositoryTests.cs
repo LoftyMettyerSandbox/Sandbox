@@ -15,10 +15,7 @@ namespace Repository.Tests
 		[TestInitialize]
 		public void Initialise()
 		{
-
 			Repository = new MockRepository();
-			//Repository = new APIRepository();
-
 		}
 
 		[TestMethod]
@@ -28,7 +25,15 @@ namespace Repository.Tests
 
 			Assert.IsInstanceOfType(result, typeof(IEnumerable<Album>), "Wrong datatype returned");
 			Assert.IsNotNull(result, "Albums not returned");
-			Assert.AreNotEqual(0, result, "Invalid album count returned");
+			Assert.AreEqual(100, result.Count(), "Invalid album count returned");
         }
-    }
+
+		[TestMethod]
+		public void AlbumsCanBeFilteredByUser() {
+
+			var result = Repository.GetAlbumsForUser(3);
+			Assert.AreEqual(10, result.Count(), "Invalid albums for user returned");
+		}
+
+	}
 }
