@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{118E2AD2-0C82-46D0-8154-2D36DA114218}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{7CD6CB73-038C-410B-ADD4-616C570C18C0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.Tests", "Repository.Tests\Repository.Tests.csproj", "{5D3C028A-E10D-48CB-B4E2-66E0382A4A30}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{118E2AD2-0C82-46D0-8154-2D36DA114218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
