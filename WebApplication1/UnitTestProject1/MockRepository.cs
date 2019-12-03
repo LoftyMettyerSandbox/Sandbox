@@ -7,10 +7,15 @@ namespace UnitTestProject1
 {
 	class MockRepository : IRepository
 	{
-		public IList<Album> GetAlbums(int id)
+		public IEnumerable<Album> GetAlbums()
 		{
 			var myJsonString = File.ReadAllText("MockData\\albums.json");
 			return new List<Album>();
+		}
+
+		public IEnumerable<Album> GetAlbumsForUser(int userId)
+		{
+			throw new System.NotImplementedException();
 		}
 	}
 }

@@ -14,7 +14,7 @@ namespace DAL
 		private static readonly HttpClient client = new HttpClient();
 
 
-		public IList<Album> GetAlbums()
+		public IEnumerable<Album> GetAlbums()
 		{
 
 			//webapi code cribbed from web - there are many different styles here, and with netcore 3 it all on teh move again!
@@ -27,14 +27,26 @@ namespace DAL
 
 			// The .Result is now making this synchronous. Depending on data and rest of app this may or may not bea good idea,
 			// this is one area you may want to mark as a potential code smell.
-			var result = JsonConvert.DeserializeObject<List<Album>>(msg.Result);
+			var albums = JsonConvert.DeserializeObject<List<Album>>(msg.Result);
 
-			return result;
+
+
+			stringTask = client.GetStringAsync("http://jsonplaceholder.typicode.com/photos");
+			msg = stringTask;
+			var photos = JsonConvert.DeserializeObject<List<Photo>>(msg.Result);
+
+
+			// I'm sure there's a cleverer way of doing this using linq!
+			foreach (var album in albums) {
+				album.Photos = photos.Where(p => p.AlbumId == album.Id).ToList();
+			}
+	
+			return albums;
 
 		}
 
 
-		public IList<Album> GetAlbumsForUser(int userId)
+		public IEnumerable<Album> GetAlbumsForUser(int userId)
 		{
 			// let linq do the hard work!
 			return GetAlbums().Where(a => a.UserId == userId).ToList();

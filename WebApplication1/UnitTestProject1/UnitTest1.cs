@@ -3,6 +3,7 @@ using BusinessObjects.Interfaces;
 using DAL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace UnitTestProject1
 {
@@ -22,13 +23,13 @@ namespace UnitTestProject1
 		}
 
 		[TestMethod]
-        public void GetAllAlbumReturnsData()
+        public void GetAlbumsReturnsData()
         {
-			var result = Repository.GetAlbums(0);
+			var result = Repository.GetAlbums().ToList();
 
 			Assert.IsInstanceOfType(result, typeof(List<Album>), "Wrong datatype returned");
 			Assert.IsNotNull(result, "Albums not returned");
-			Assert.AreNotEqual(0, result.Count, "Invalid album count returned");
+			Assert.AreNotEqual(0, result, "Invalid album count returned");
         }
     }
 }

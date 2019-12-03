@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace BusinessObjects
 {
@@ -12,5 +13,8 @@ namespace BusinessObjects
 
 		[JsonProperty("title")]
 		public string Title { get; set; }
+
+		public ICollection<Photo> Photos { get; set; }
+
 	}
 }
