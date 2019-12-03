@@ -1,7 +1,9 @@
-﻿using Repository.Interfaces;
+﻿using Newtonsoft.Json;
+using Repository.Interfaces;
 using Repository.Objects;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Repository.Tests
 {
@@ -9,13 +11,13 @@ namespace Repository.Tests
 	{
 		public IEnumerable<Album> GetAlbums()
 		{
-			var myJsonString = File.ReadAllText("MockData\\albums.json");
-			return new List<Album>();
+			var albumString = File.ReadAllText("MockData\\albums.json");
+			var photoString = File.ReadAllText("MockData\\photos.json");
+
+			return JsonConvert.DeserializeObject<List<Album>>(albumString);
 		}
 
-		public IEnumerable<Album> GetAlbumsForUser(int userId)
-		{
-			throw new System.NotImplementedException();
-		}
+		public IEnumerable<Album> GetAlbumsForUser(int userId) => GetAlbums().Where(a => a.UserId == userId).ToList();
+
 	}
 }

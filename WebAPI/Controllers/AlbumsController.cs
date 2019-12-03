@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Repository;
 using Repository.Interfaces;
 
 namespace WebApi.Controllers
@@ -10,7 +9,12 @@ namespace WebApi.Controllers
 	public class AlbumsController : ControllerBase
 	{
 
-		private IRepository Repository = new APIRepository();
+		private IRepository Repository;
+
+		public AlbumsController(IRepository repository)
+		{
+			this.Repository = repository;
+		}
 
 		[HttpGet]
 		public ActionResult<string> Get()
