@@ -25,7 +25,7 @@ namespace BusinessObjects
 		[JsonProperty("url")]
 		public string Url { get; set; }
 
-		[JsonProperty("ThumbnailUrl")]
+		[JsonProperty("thumbnailUrl")]
 		public string thumbnailUrl { get; set; }
 	}
 }

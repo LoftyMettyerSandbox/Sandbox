@@ -1,9 +1,0 @@
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.deps.json
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.dll
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.pdb
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csproj.CoreCompileInputs.cache
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfoInputs.cache
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfo.cs
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.dll
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.pdb
-C:\gitsandbox\Sandbox\WebApplication1\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csprojResolveAssemblyReference.cache

@@ -1,4 +1,0 @@
-C:\gitsandbox\Sandbox\WebApplication1\UnitTestProject1\obj\Debug\netcoreapp2.2\UnitTestProject1.csprojResolveAssemblyReference.cache
-C:\gitsandbox\Sandbox\WebApplication1\UnitTestProject1\obj\Debug\netcoreapp2.2\UnitTestProject1.csproj.CoreCompileInputs.cache
-C:\gitsandbox\Sandbox\WebApplication1\UnitTestProject1\obj\Debug\netcoreapp2.2\UnitTestProject1.AssemblyInfoInputs.cache
-C:\gitsandbox\Sandbox\WebApplication1\UnitTestProject1\obj\Debug\netcoreapp2.2\UnitTestProject1.AssemblyInfo.cs
