@@ -1,7 +1,7 @@
-﻿using BusinessObjects.Interfaces;
-using DAL;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Repository;
+using Repository.Interfaces;
 
 namespace WebApplication1.Controllers
 {

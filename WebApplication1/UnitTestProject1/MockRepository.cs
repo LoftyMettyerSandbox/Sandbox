@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Repository.Interfaces;
+using Repository.Objects;
+using System.Collections.Generic;
 using System.IO;
-using BusinessObjects;
-using BusinessObjects.Interfaces;
 
 namespace UnitTestProject1
 {

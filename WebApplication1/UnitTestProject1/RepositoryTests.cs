@@ -1,14 +1,13 @@
-using BusinessObjects;
-using BusinessObjects.Interfaces;
-using DAL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Repository.Interfaces;
+using Repository.Objects;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UnitTestProject1
+namespace Repository.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class RepositoryTests
     {
 
 		private IRepository Repository { get; set; }
@@ -27,7 +26,7 @@ namespace UnitTestProject1
         {
 			var result = Repository.GetAlbums().ToList();
 
-			Assert.IsInstanceOfType(result, typeof(List<Album>), "Wrong datatype returned");
+			Assert.IsInstanceOfType(result, typeof(IEnumerable<Album>), "Wrong datatype returned");
 			Assert.IsNotNull(result, "Albums not returned");
 			Assert.AreNotEqual(0, result, "Invalid album count returned");
         }

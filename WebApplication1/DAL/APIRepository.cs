@@ -1,13 +1,13 @@
-﻿using BusinessObjects;
-using BusinessObjects.Interfaces;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using Repository.Interfaces;
+using Repository.Objects;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace DAL
+namespace Repository
 {
 	public class APIRepository : IRepository
 	{

@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj" />
-    <ProjectReference Include="..\WebApplication1\WebApplication1.csproj" />
+    <ProjectReference Include="..\DAL\Repository.csproj" />
+    <ProjectReference Include="..\WebApplication1\WebAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
