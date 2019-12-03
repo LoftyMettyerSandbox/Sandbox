@@ -7,8 +7,8 @@ namespace Repository.Objects
 
 		// including jsonproperty attribute so that the class can use Proper Type casing whilst still presenting 
 		// the json with camelcase. Rational for this is its naming convention standard for c# classes to be proper case
-		// and its standard for json and angluar front end stuff to be camel case. I've had many an argument with UI
-		// developers about this, and so this became a habit just to keep everyone happy!
+		// and its standard for json and front end stuff to be camel case. I've had many an argument with UI
+		// developers about this, and so this was a solution to please everyone.
 
 		[JsonIgnore]
 		public virtual Album Album { get; set; }
