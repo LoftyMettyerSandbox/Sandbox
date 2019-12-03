@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Repository;
 using Repository.Interfaces;
 
-namespace WebApplication1.Controllers
+namespace WebApi.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
