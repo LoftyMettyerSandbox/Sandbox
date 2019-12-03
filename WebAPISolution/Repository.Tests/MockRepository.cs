@@ -3,7 +3,7 @@ using Repository.Objects;
 using System.Collections.Generic;
 using System.IO;
 
-namespace UnitTestProject1
+namespace Repository.Tests
 {
 	class MockRepository : IRepository
 	{

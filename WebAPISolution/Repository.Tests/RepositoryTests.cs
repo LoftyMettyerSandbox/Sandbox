@@ -16,8 +16,8 @@ namespace Repository.Tests
 		public void Initialise()
 		{
 
-			//Repository = new MockRepository();
-			Repository = new APIRepository();
+			Repository = new MockRepository();
+			//Repository = new APIRepository();
 
 		}
 
